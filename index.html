@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AudioX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AudioX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+
+<!-- LEFT SIDEBAR -->
+<div class="left">
+
+    <div class="logo">
+        <img src="logo.svg">
+        <span>AudioX</span>
+    </div>
+
+    <ul class="menu">
+        <li class="menu-item active">
+            <img src="home.svg">
+            <span>Home</span>
+        </li>
+
+        <li class="menu-item">
+            <img src="search.svg">
+            <span>Search</span>
+        </li>
+    </ul>
+
+    <div class="library">
+        <div class="heading">
+            <div style="display:flex; gap:10px; align-items:center;">
+                <img src="lib.svg">
+                <h4>Your Library</h4>
+            </div>
+            <img src="plus.svg">
+        </div>
+
+        <div class="playlist">❤️ Liked Songs</div>
+        <div class="playlist">🎧 My Playlist</div>
+        <div class="playlist">🔥 Gym Mix</div>
+        <div class="playlist">🌙 Chill Vibes</div>
+        <div class="playlist">🔄 Recently Played</div>
+    </div>
+
+    <div class="footer">
+        <h3>Legal Privacy</h3>
+        <h3>Cookies</h3>
+    </div>
+
+    <div class="language-btn">🌐 English</div>
+
+</div>
+
+
+
+<!-- RIGHT PANEL -->
+<div class="right">
+
+    <!-- TOP BAR -->
+    <div class="top-bar">
+        <div class="nav-buttons">
+            <button class="nav-btn">⮜</button>
+            <button class="nav-btn">⮞</button>
+        </div>
+
+        <div class="search-box">
+            <input type="text" placeholder="What do you want to play?">
+        </div>
+
+        <div class="profile">A</div>
+    </div>
+
+
+
+    <!-- CATEGORY BAR -->
+    <div class="category-bar">
+        <button class="category active">All</button>
+        <button class="category">Music</button>
+        <button class="category">Podcasts</button>
+        <button class="category">Artists</button>
+        <button class="category">Liked Music</button>
+    </div>
+
+
+
+    <!-- QUICK ROW -->
+    <div class="quick-row">
+
+        <div class="quick-card" data-song="audio/tumhiho.mp3">
+            <div class="quick-img-container">
+                <img src="covers/arijit.jpg">
+                <div class="quick-play">▶</div>
+            </div>
+            <span>Tum Hi Ho</span>
+        </div>
+
+        <div class="quick-card" data-song="audio/perfect.mp3">
+            <div class="quick-img-container">
+                <img src="covers/img2.jpg">
+                <div class="quick-play">▶</div>
+            </div>
+            <span>Perfect</span>
+        </div>
+
+        <div class="quick-card" data-song="audio/batidao.mp3">
+            <div class="quick-img-container">
+                <img src="covers/img4.jpg">
+                <div class="quick-play">▶</div>
+            </div>
+            <span>NO BATIDÃO</span>
+        </div>
+
+        <div class="quick-card" data-song="audio/starboy.mp3">
+            <div class="quick-img-container">
+                <img src="covers/weeknd.jpg">
+                <div class="quick-play">▶</div>
+            </div>
+            <span>starboy</span>
+        </div>
+
+        <div class="quick-card" data-song="audio/palpal.mp3">
+            <div class="quick-img-container">
+                <img src="covers/talwinder.jpg">
+                <div class="quick-play">▶</div>
+            </div>
+            <span>PalPal</span>
+        </div>
+
+    </div>
+
+
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+        <div class="section-header">
+            <h2>Trending songs</h2>
+            <span class="show-all">Show all</span>
+        </div>
+
+        <div class="card-row">
+
+            <div class="card" data-song="audio/until.mp3">
+                <div class="card-img-container">
+                    <img src="covers/img1.jpg">
+                    <div class="play-btn">▶</div>
+                </div>
+                <h4>Until I Found You</h4>
+                <p>Stephen Sanchez</p>
+            </div>
+
+            <div class="card" data-song="audio/perfect.mp3">
+                <div class="card-img-container">
+                    <img src="covers/img2.jpg">
+                    <div class="play-btn">▶</div>
+                </div>
+                <h4>Perfect</h4>
+                <p>Ed Sheeran</p>
+            </div>
+
+            <div class="card" data-song="audio/night.mp3">
+                <div class="card-img-container">
+                    <img src="covers/img3.png">
+                    <div class="play-btn">▶</div>
+                </div>
+                <h4>Night Changes</h4>
+                <p>One Direction</p>
+            </div>
+
+            <div class="card" data-song="audio/the_nights.mp3">
+                <div class="card-img-container">
+                    <img src="covers/img4.jpg">
+                    <div class="play-btn">▶</div>
+                </div>
+                <h4>Blinding Lights</h4>
+                <p>The Weeknd</p>
+            </div>
+
+            <div class="card" data-song="audio/skyfall.mp3">
+                <div class="card-img-container">
+                    <img src="covers/Adele.jpg">
+                    <div class="play-btn">▶</div>
+                </div>
+                <h4>Skyfall</h4>
+                <p>Adele</p>
+            </div>
+
+            <div class="card" data-song="audio/palpal.mp3">
+                <div class="card-img-container">
+                    <img src="covers/talwinder.jpg">
+                    <div class="play-btn">▶</div>
+                </div>
+                <h4>PalPal</h4>
+                <p>Talwinder</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+</div>
+
+<!-- AUDIO -->
+
+<audio id="audioPlayer"></audio>
+
+<!-- PLAYER -->
+
+<div class="player">
+
+```
+<div class="player-left">
+    <img src="covers/img2.jpg" id="playerCover" class="player-cover">
+    <div>
+        <div class="player-song" id="playerSong">Perfect</div>
+        <div class="player-artist" id="playerArtist">Ed Sheeran</div>
+    </div>
+</div>
+
+<div class="player-center">
+
+    <div class="controls">
+        <button class="control-btn">⏮</button>
+        <button class="control-btn play-main">▶</button>
+        <button class="control-btn">⏭</button>
+    </div>
+
+    <div class="progress-bar" id="progressBar">
+        <div class="progress" id="progress"></div>
+    </div>
+
+</div>
+
+<div class="player-right">
+    
+    
+    🔊
+    <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="1">
+
+
+
+
+</div>
+
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+</div>
+
+
+</body>
+</html>
+
